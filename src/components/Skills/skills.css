@@ -1,0 +1,29 @@
+.skill-header {
+	font-size: 2rem;
+}
+
+.skill-text {
+	font-weight: 300;
+	font-size: 1.5rem;
+}
+
+.custom-btn {
+	background: #2eb3b8 !important;
+	font-weight: 700 !important;
+	border: none !important;
+}
+
+.custom-btn:hover {
+	background: #339699 !important;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+	.skill-header {
+		font-size: 1rem;
+	}
+
+	.skill-text {
+		font-size: 0.8rem;
+	}
+}
